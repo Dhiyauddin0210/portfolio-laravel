@@ -17,7 +17,7 @@
     <div class="exp-item">
       <div class="exp-year">2023 &mdash; 2026</div>
       <div>
-        <div class="exp-role">Siswa Aktif</div>
+        <div class="exp-role">Lulusan SMK</div>
         <div class="exp-company">SMK Wisata Indonesia</div>
         <p class="exp-desc">Jurusan Teknik Komputer dan Jaringan. Memiliki sertifikasi LSP BNSP, UKOM, dan sertifikasi mikrokontroler.</p>
         <button class="detail-btn" onclick="openModal('exp-02')">Lihat Sertifikat</button>
