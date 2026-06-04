@@ -19,17 +19,12 @@
       </div>
     </div>
     <div class="hero-photo-wrap fade-up delay-5">
-      <div class="hero-photo-frame">
-        <div class="inner-corners"></div>
-        <img src="{{ asset('ftoadin.jpg') }}" alt="Muhammad Dhiyauddin" class="hero-photo"
-          onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';" />
-        <div class="photo-placeholder" style="display:none;">
-          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/><circle cx="12" cy="7" r="4"/></svg>
-          <span>Ganti dengan foto kamu</span>
-        </div>
-      </div>
-      <div class="status-badge"><div class="status-dot"></div>available for work</div>
-    </div>
+  <div class="hero-photo-frame" onclick="togglePhoto()" style="cursor:pointer;">
+    <div class="inner-corners"></div>
+    <img src="{{ asset('foto_full.jpeg') }}" alt="Muhammad Dhiyauddin" class="hero-photo" id="hero-img" />
+  </div>
+  <div class="status-badge"><div class="status-dot"></div>available for work</div>
+</div>
   </div>
 </section>
 

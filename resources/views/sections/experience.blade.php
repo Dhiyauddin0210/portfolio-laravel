@@ -7,7 +7,7 @@
       <div>
         <div class="exp-role">Programmer Intern</div>
         <div class="exp-company-row">
-          <img src="{{ asset('solusi-intek-logo.png') }}" alt="PT Solusi Intek Indonesia" class="exp-company-logo" onerror="this.style.display='none';" />
+          <img src="{{ asset('solusi-intek-logo.png') }}" alt="PT Solusi Intek Indonesia" class="exp-company-logo intek-logo" onerror="this.style.display='none';" />
           <div class="exp-company">PT Solusi Intek Indonesia</div>
         </div>
         <p class="exp-desc">Melaksanakan program PKL selama 6 bulan dengan fokus pada pengumpulan dan analisis data untuk mendeteksi potensi kebocoran data perusahaan dan klien.</p>
@@ -18,7 +18,10 @@
       <div class="exp-year">2023 &mdash; 2026</div>
       <div>
         <div class="exp-role">Lulusan SMK</div>
-        <div class="exp-company">SMK Wisata Indonesia</div>
+        <div class="exp-company-row">
+          <img src="{{ asset('smk-wisata-logo.png') }}" alt="SMK Wisata Indonesia" class="exp-company-logo smk-logo" onerror="this.style.display='none';" />
+          <div class="exp-company">SMK Wisata Indonesia</div>
+        </div>
         <p class="exp-desc">Jurusan Teknik Komputer dan Jaringan. Memiliki sertifikasi LSP BNSP, UKOM, dan sertifikasi mikrokontroler.</p>
         <button class="detail-btn" onclick="openModal('exp-02')">Lihat Sertifikat</button>
       </div>

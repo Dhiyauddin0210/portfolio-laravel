@@ -68,8 +68,21 @@ h2 { font-size: clamp(1.8rem, 4vw, 2.8rem); font-weight: 700; letter-spacing: -0
 .exp-role { font-weight: 600; font-size: 1rem; }
 .exp-company { color: var(--accent); font-size: 0.9rem; margin-bottom: 0.5rem; }
 .exp-desc { font-size: 0.9rem; color: var(--muted); font-weight: 300; margin-bottom: 0.75rem; }
-.exp-company-row { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 0.5rem; }
-.exp-company-logo { height: 28px; width: auto; max-width: 100px; object-fit: contain; opacity: 0.9; }
+.exp-company-logo {
+  width: auto;
+  max-width: 120px;
+  object-fit: contain;
+  opacity: 0.9;
+  border-radius: 6px;
+}
+
+.exp-company-logo.intek-logo {
+  height: 75px;
+}
+
+.exp-company-logo.smk-logo {
+  height: 50px;
+}
 #contact { text-align: center; }
 #contact h2 { margin-bottom: 1rem; }
 #contact p { color: var(--muted); max-width: 480px; margin: 0 auto 2.5rem; font-weight: 300; }

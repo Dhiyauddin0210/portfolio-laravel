@@ -111,3 +111,13 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   });
 });
+const photos = [
+  '/ftoadin.jpg',
+  '/foto_full.jpeg'
+];
+let currentPhoto = 0;
+
+window.togglePhoto = function() {
+  currentPhoto = (currentPhoto + 1) % photos.length;
+  document.getElementById('hero-img').src = photos[currentPhoto];
+}
