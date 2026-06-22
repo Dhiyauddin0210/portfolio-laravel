@@ -116,19 +116,33 @@
     </div>
 
     <div class="modal-overlay" id="modal-exp-02">
-      <div class="modal-box">
-        <div class="modal-header">
-          <div><div class="modal-tag">Education · 2023–2026</div><div class="modal-title">SMK Wisata Indonesia</div></div>
-          <button class="modal-close" onclick="closeModal('exp-02')">&#x2715;</button>
-        </div>
-        <div class="modal-body">
-          <div>
-            <div class="modal-section-label">Detail Pendidikan</div>
-            <p class="modal-desc">Jurusan Teknik Komputer dan Jaringan · Sertifikasi LSP BNSP · Sertifikasi Mikrokontroler · UKOM (Virtualisasi Linux, Web Server, WordPress & Mail Server Roundcube).</p>
+  <div class="modal-box">
+    <div class="modal-header">
+      <div><div class="modal-tag">Education · 2023–2026</div><div class="modal-title">SMK Wisata Indonesia</div></div>
+      <button class="modal-close" onclick="closeModal('exp-02')">&#x2715;</button>
+    </div>
+    <div class="modal-body">
+      
+      <!-- Sertifikat -->
+      <div>
+        <div class="modal-section-label">Sertifikat &amp; Dokumen</div>
+        <div class="modal-gallery">
+          <div class="gallery-item" data-type="img">
+            <img src="{{ asset('sertifikat-bnsp.JPEG') }}" alt="Sertifikat BNSP"/>
+            <div class="media-label">Sertifikat BNSP</div>
           </div>
         </div>
       </div>
+
+      <!-- Detail Pendidikan -->
+      <div>
+        <div class="modal-section-label">Detail Pendidikan</div>
+        <p class="modal-desc">Jurusan Teknik Komputer dan Jaringan · Sertifikasi LSP BNSP · Sertifikasi Mikrokontroler · UKOM (Virtualisasi Linux, Web Server, WordPress & Mail Server Roundcube).</p>
+      </div>
+
     </div>
+  </div>
+</div>
 
     <!-- LIGHTBOX -->
     <div class="lightbox" id="lightbox" onclick="if(event.target===this)closeLightbox()">
