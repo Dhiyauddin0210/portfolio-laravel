@@ -128,7 +128,7 @@
         <div class="modal-section-label">Sertifikat &amp; Dokumen</div>
         <div class="modal-gallery">
           <div class="gallery-item" data-type="img">
-            <img src="{{ asset('sertifikat-bnsp.JPEG') }}" alt="Sertifikat BNSP"/>
+            <img src="{{ asset('sertifikat-bnsp.jpeg') }}" alt="Sertifikat BNSP"/>
             <div class="media-label">Sertifikat BNSP</div>
           </div>
         </div>
